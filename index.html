@@ -1,31 +1,44 @@
 <html>
 <head>
-	<title>canop.github</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF8">
+	<title>canop.github.com</title>
 	<style type="text/css">
 	body, td {
 		font-size: 14px;
 		font-family: Verdana, Geneva, sans-serif;
 	}
 	body {
-		background-color: #EEF;
 		text-align: center;
+	}
+	#centerDivContainer {
+		display: table;
+		position:fixed;
+		top:0;bottom:0;left:0;right:0;
+		width:100%;
+		height:100%;
+		overflow: hidden;
+	}
+	#centerDiv {
+		display: table-cell; vertical-align: middle;
+		background-color: #EEE;
+		padding: 10px;
 	}
 	a {
 		display: block;
 		margin: 10px;
 		padding: 10px;
+		color: #555;
+		text-decoration:none;
+		font-weight: bold;
 	}
 	</style>
 </head>
 <body>
-	<p>
-		<a href=http://canop.org/blog>Blog de la Canopée</a>
-		
+	<div id=centerDivContainer><div id=centerDiv>
+		<a href=http://canop.org/blog>Blog</a>
 		<a href=http://canop.org/braldop>Braldop</a>
-
 		<a href=http://canop.org/chrall>Chrall</a>
-
-		<br>Contact : cano.petrole @ gmail.com
-	</p>
+		<br>cano.petrole @ gmail.com
+	</div></div>
 </body>
 </html>
